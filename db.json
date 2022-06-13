@@ -1,0 +1,39 @@
+{
+  "Product": [
+    {
+      "title": "tata",
+      "gender": "female",
+      "price": "454",
+      "category": "fjgh",
+      "id": 1
+    },
+    {
+      "title": "fjdghdfij",
+      "gender": "male",
+      "price": "487583",
+      "category": "fjghd",
+      "id": 2
+    },
+    {
+      "title": "masai",
+      "gender": "female",
+      "price": "75345",
+      "category": "bc",
+      "id": 3
+    },
+    {
+      "title": "masai",
+      "gender": "female",
+      "price": "75345",
+      "category": "bc",
+      "id": 4
+    },
+    {
+      "title": "masai",
+      "gender": "female",
+      "price": "75345",
+      "category": "bc",
+      "id": 5
+    }
+  ]
+}
