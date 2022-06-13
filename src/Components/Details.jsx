@@ -4,7 +4,8 @@ function Details(){
     title : "",
     gender :"",
      price:"",
-     category:""
+     category:"",
+     image:""
 })
 const [Todo,setTodos] = React.useState([])
 React.useEffect(()=>{
@@ -44,7 +45,7 @@ React.useEffect(()=>{
 
 
    
-const {title,price,category,gender} = Product;
+const {title,price,category,gender,image} = Product;
 
 return(
     <>
@@ -75,14 +76,22 @@ return(
         name = "category"
         value = {category}/>
         <br/>
+
+        <input type = "image"
+        onChange = {setProduct1}
+        name = "image"
+        value = {image}/>
+
         <input type = "submit"
         value = "Submit"/>
     </form>
     <div className = "Table"> {Todo.map((item)=>(
-      <div className = "title"><h1>{item.title}</h1>
-      <h1>{item.price}</h1>
-      <h1>{item.gender}</h1>
-      <h1>{item.category}</h1>
+      <div className = "title"><h1>Ttitle:{item.title}</h1>
+     <img src = {item.image}/>
+      <h1>Price:{item.price}</h1>
+      <h1>Gender:{item.gender}</h1>
+      <h1>Category:{item.category}</h1>
+      {/* <img src = {item.image}/> */}
       </div>
       ))}</div>
     </>
